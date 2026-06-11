@@ -3,14 +3,34 @@
 Placeholders currently baked into the site are marked ⚠️. Work through these
 before (or alongside) submitting the Apple account migration.
 
+## 0. Registered company details (provided 2026-06-11)
+
+- **Contact/registered person**: Monica Chitnis
+- **Company**: Wibbly Works
+- **Registered address**: 8 The Green, Suite 300, Dover, DE 19901, US
+  (now in the site footer + privacy contact section)
+- **Phone**: +1 845 764 2727 (kept OFF the public site — spam magnet; Apple
+  gets it via D-U-N-S/the migration form)
+- **Monica's email**: m@wibbly.works (kept off the public site; hello@ stays
+  the public address)
+
 ## 1. Facts I guessed — please confirm or correct
 
 - ⚠️ **Contact email**: site uses `hello@wibbly.works` (index, privacy, footer).
-  Does this address exist yet? If you prefer `support@` / `contact@`, say so.
+  m@wibbly.works works, so the domain has mail — make sure `hello@` is also
+  routed (alias/forward to the same inbox), or tell me to switch the site to a
+  different address.
 - ⚠️ **Founded year**: About section says "founded in 2026". Correct?
-- ⚠️ **"Inc"**: I've written "Wibbly Works Inc" everywhere (no period, matching
-  how you wrote it). Confirm the exact registered legal name — Apple matches it
-  against the D-U-N-S record, so it must be character-correct.
+- ⚠️ **Exact legal name / suffix**: the registration block says "Wibbly Works"
+  but the site says "Wibbly Works Inc". A Delaware corporation's registered
+  name normally carries a suffix (Inc./Corp./LLC…). Apple matches the name
+  against the D-U-N-S record character-for-character — confirm exactly what's
+  on the Delaware registration and I'll align the site (© line) to it.
+- ⚠️ **Binding authority / Account Holder**: the Apple developer account is
+  John's, but Monica is the registered contact. Apple's migration requires the
+  requester to have authority to bind the company — if John isn't a listed
+  owner/officer, Apple may ask for a reference (Monica) to confirm his
+  authority. Worth deciding up front who answers that call/email.
 - ⚠️ **"A couple more wibbly things in the works"**: I saw CosyWords and
   Speakerly folders but didn't name them. Want them teased/named on the site,
   or kept quiet?
