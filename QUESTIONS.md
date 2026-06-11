@@ -14,6 +14,13 @@ before (or alongside) submitting the Apple account migration.
 - ⚠️ **"A couple more wibbly things in the works"**: I saw CosyWords and
   Speakerly folders but didn't name them. Want them teased/named on the site,
   or kept quiet?
+- ⚠️ **SlashCart ownership & privacy**: the site now lists SlashCart as a
+  Wibbly Works product. Two things to confirm: (1) slashcart.app itself never
+  mentions Wibbly Works Inc — adding a "© Wibbly Works Inc" footer there
+  strengthens the Apple paper trail; (2) our privacy.html is scoped to "its
+  games" and written around Betweenies — SlashCart's data practices (pasted
+  lists, **receipt photo uploads**, retailer carts) are different and need
+  their own policy or an extended section here.
 - ⚠️ **Privacy policy claims**: I wrote it to match Betweenies as built (no
   ads, no tracking, optional leaderboard name, Supabase + RevenueCat + Apple as
   processors). Review it — especially the children/COPPA paragraph — and

@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Wibbly Works — playful little games</title>
-  <meta name="description" content="Wibbly Works Inc is an independent studio making playful little games, including Betweenies, the word-betweening puzzle game for iPhone." />
+  <title>Wibbly Works — playful games &amp; useful apps</title>
+  <meta name="description" content="Wibbly Works Inc is an independent studio making playful games and useful apps — Betweenies, the word-betweening puzzle for iPhone, and SlashCart, the grocery cart-building tool." />
   <link rel="canonical" href="https://wibbly.works/" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='54' r='38' fill='%23f4a261'/%3E%3Ccircle cx='38' cy='46' r='6' fill='%23223047'/%3E%3Ccircle cx='62' cy='46' r='6' fill='%23223047'/%3E%3Cpath d='M36 64 q14 12 28 0' stroke='%23223047' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" />
-  <meta property="og:title" content="Wibbly Works — playful little games" />
-  <meta property="og:description" content="An independent studio making small, friendly games you can finish on the bus." />
+  <meta property="og:title" content="Wibbly Works — playful games &amp; useful apps" />
+  <meta property="og:description" content="An independent studio making small, friendly games and clever little tools that respect your time." />
   <meta property="og:url" content="https://wibbly.works/" />
   <meta property="og:type" content="website" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -117,6 +117,7 @@
       line-height: 1.08;
       letter-spacing: -1px;
     }
+    .hero h1 .accent { color: var(--orange-deep); }
     .hero h1 .squiggle {
       color: var(--orange-deep);
       position: relative;
@@ -179,6 +180,7 @@
       place-items: center;
       box-shadow: 0 8px 20px rgba(15, 17, 23, 0.25);
     }
+    .game-icon.slashcart { background: #0b1426; }
     .game-info { flex: 1; min-width: 240px; }
     .game-info h3 { font-size: 26px; font-weight: 800; }
     .game-info .tag {
@@ -191,6 +193,7 @@
       border-radius: 999px;
       margin: 6px 0 10px;
     }
+    .game-info .tag.web { background: rgba(173, 211, 36, 0.22); color: #5e7510; }
     .game-info p { color: var(--ink-soft); font-size: 15.5px; }
     .btn-row { margin-top: 18px; display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
     .btn {
@@ -301,7 +304,7 @@
         <span><span class="w">W</span><span class="i">i</span><span class="b1l">b</span><span class="b2l">b</span><span class="l">l</span><span class="y">y</span></span>&nbsp;<span class="works">Works</span>
       </a>
       <nav class="links" aria-label="Site">
-        <a href="#games">Games</a>
+        <a href="#games">Games &amp; apps</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -317,14 +320,14 @@
         <circle cx="62" cy="46" r="6" fill="#223047"/>
         <path d="M36 64 q14 12 28 0" stroke="#223047" stroke-width="5" fill="none" stroke-linecap="round"/>
       </svg>
-      <h1>We make <span class="squiggle">playful little games<svg viewBox="0 0 300 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 8 Q 20 2, 38 8 T 74 8 T 110 8 T 146 8 T 182 8 T 218 8 T 254 8 T 290 8" stroke="#f4c95d" stroke-width="5" fill="none" stroke-linecap="round"/></svg></span></h1>
-      <p class="sub">Wibbly Works is a small independent studio. We build friendly, brain-tickling games you can pick up in a minute and finish on the bus — no noise, no nags, just a good puzzle.</p>
+      <h1>We make <span class="accent">playful games</span><br>and <span class="squiggle">useful apps<svg viewBox="0 0 300 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 8 Q 20 2, 38 8 T 74 8 T 110 8 T 146 8 T 182 8 T 218 8 T 254 8 T 290 8" stroke="#f4c95d" stroke-width="5" fill="none" stroke-linecap="round"/></svg></span></h1>
+      <p class="sub">Wibbly Works is a small independent studio. We build friendly, brain-tickling games and clever little tools that save you time — no noise, no nags, just nice things that work.</p>
     </div>
 
     <section id="games">
       <div class="wrap">
-        <h2>Our games<span class="dot">.</span></h2>
-        <p class="lede">One out in the wild, more bubbling away in the workshop.</p>
+        <h2>Games &amp; apps<span class="dot">.</span></h2>
+        <p class="lede">A word game out in the wild, a grocery sidekick on the web, and more bubbling away in the workshop.</p>
 
         <div class="game-card">
           <div class="game-icon" aria-hidden="true">
@@ -348,6 +351,28 @@
           </div>
         </div>
 
+        <div class="game-card">
+          <div class="game-icon slashcart" aria-hidden="true">
+            <!-- SlashCart mark: white cart with the lime slash -->
+            <svg viewBox="0 0 100 100" width="84" height="84">
+              <rect x="24" y="26" width="46" height="32" rx="6" fill="none" stroke="#FAFAF8" stroke-width="4"/>
+              <path d="M70 31 Q80 31 80 41" fill="none" stroke="#FAFAF8" stroke-width="4" stroke-linecap="round"/>
+              <circle cx="33" cy="67" r="5.5" fill="none" stroke="#FAFAF8" stroke-width="4"/>
+              <circle cx="61" cy="67" r="5.5" fill="none" stroke="#FAFAF8" stroke-width="4"/>
+              <line x1="61" y1="14" x2="31" y2="80" stroke="#C8F135" stroke-width="6" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="game-info">
+            <h3>SlashCart</h3>
+            <span class="tag web">Free on the web</span>
+            <p>Your grocery list. Best unit prices. Cart built. Done. Paste a list or snap a receipt — SlashCart finds the best real cost per unit across Amazon and Walmart, then builds your cart for you. Not a price comparison tool: a buying tool.</p>
+            <div class="btn-row">
+              <a class="btn primary" href="https://app.slashcart.app">Try SlashCart free</a>
+              <a class="btn ghost" href="https://www.slashcart.app">slashcart.app</a>
+            </div>
+          </div>
+        </div>
+
         <p class="more-soon">…and a couple more wibbly things are in the works. Watch this space! 👀</p>
       </div>
     </section>
@@ -355,7 +380,7 @@
     <section id="about">
       <div class="wrap">
         <h2>About us<span class="dot">.</span></h2>
-        <p class="lede">Wibbly Works Inc is an independent game studio founded in 2026. We're tiny on purpose: small games, made carefully, that respect your time and your attention.</p>
+        <p class="lede">Wibbly Works Inc is an independent studio founded in 2026. We're tiny on purpose: small games and useful tools, made carefully, that respect your time and your attention.</p>
         <div class="values">
           <div class="value">
             <div class="emoji">🧩</div>
@@ -391,10 +416,11 @@
   <footer>
     <div class="wrap">
       <p class="legal">© 2026 Wibbly Works Inc. All rights reserved.</p>
-      <p>Wibbly Works Inc is the maker of Betweenies and other playful little games.</p>
+      <p>Wibbly Works Inc is the maker of Betweenies, SlashCart, and other playful little things.</p>
       <div class="foot-links">
         <a href="/privacy.html">Privacy</a>
         <a href="https://www.betweenies.app">Betweenies</a>
+        <a href="https://www.slashcart.app">SlashCart</a>
         <a href="mailto:hello@wibbly.works">Contact</a>
       </div>
     </div>
