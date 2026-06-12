@@ -3,6 +3,11 @@
 Placeholders currently baked into the site are marked ⚠️. Work through these
 before (or alongside) submitting the Apple account migration.
 
+**Status 2026-06-12**: site LIVE at https://wibbly.works (Vercel + Namecheap
+DNS). D-U-N-S number obtained: **145004806**, registered name **"Wibbly Works
+Inc"** (now in the footer alongside the address — note Apple doesn't require
+the D-U-N-S on the site; it goes in the migration form).
+
 ## 0. Registered company details (provided 2026-06-11)
 
 - **Contact/registered person**: Monica Chitnis
@@ -21,11 +26,8 @@ before (or alongside) submitting the Apple account migration.
   routed (alias/forward to the same inbox), or tell me to switch the site to a
   different address.
 - ⚠️ **Founded year**: About section says "founded in 2026". Correct?
-- ⚠️ **Exact legal name / suffix**: the registration block says "Wibbly Works"
-  but the site says "Wibbly Works Inc". A Delaware corporation's registered
-  name normally carries a suffix (Inc./Corp./LLC…). Apple matches the name
-  against the D-U-N-S record character-for-character — confirm exactly what's
-  on the Delaware registration and I'll align the site (© line) to it.
+- ✅ **Exact legal name / suffix**: RESOLVED — D-U-N-S 145004806 is registered
+  to "Wibbly Works Inc"; site name aligned everywhere.
 - ⚠️ **Binding authority / Account Holder**: the Apple developer account is
   John's, but Monica is the registered contact. Apple's migration requires the
   requester to have authority to bind the company — if John isn't a listed
@@ -52,19 +54,17 @@ before (or alongside) submitting the Apple account migration.
       mail. Cheapest: registrar/Cloudflare email forwarding to your Gmail.
       Apple also strongly prefers the developer Apple ID to use an email on the
       company domain — consider `john@wibbly.works` or similar for the account.
-- [ ] **Hosting + DNS** — push to GitHub, import to Vercel, point wibbly.works
-      DNS (see README). Verify it loads over HTTPS at the bare domain.
-- [ ] **Git repo** — `git init` + first commit (folder is not a repo yet);
-      create the GitHub remote.
+- [x] **Hosting + DNS** — DONE 2026-06-12: GitHub `quietoptimist/wibbly-works`
+      → Vercel, Namecheap DNS (A on apex + CNAME on www; Namecheap's URL
+      Redirect record deleted — it conflicted; mail/MX records left untouched).
+      Site serves at the apex with HTTPS; www redirects to it.
+- [x] **Git repo** — done.
 
 ## 3. Apple migration prerequisites (beyond the website)
 
 - [ ] **Legal entity exists** — Wibbly Works Inc must be registered
       (state/country of incorporation needed for D-U-N-S).
-- [ ] **D-U-N-S number** — free via Apple's lookup/request tool
-      (developer.apple.com/enroll/duns-lookup). New numbers can take ~5 business
-      days (longer outside the US). Company name + address must match the
-      registration exactly.
+- [x] **D-U-N-S number** — DONE: **145004806** ("Wibbly Works Inc").
 - [ ] **Binding authority** — the migration must be requested by someone with
       legal authority to bind the company (owner/founder = you, simplest case).
 - [ ] **Company phone number** — D-U-N-S and Apple verification both want one
